@@ -51,7 +51,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := false
 PRODUCT_PACKAGES += \
     gsi_skip_mount.cfg \
     init.gsi.rc \
-    init.vndk-nodef.rc \
 
 # Overlay the GSI specific SystemUI setting
 PRODUCT_PACKAGES += gsi_overlay_systemui
